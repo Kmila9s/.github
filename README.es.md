@@ -1,12 +1,18 @@
 <p align="right"><a href="README.md">English</a></p>
 
-<p align="center"><img src="assets/banner-es.png" alt="Kmila" width="100%"></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-es-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-es-light.svg">
+  <img src="assets/banner-es-dark.svg" alt="Kmila — Escribe, simula y depura HDL sin FPGA" width="100%">
+</picture></p>
 
-<p align="center">
-  <a href="https://kmila.com.mx/demo"><b>Prueba la demo en el navegador</b></a> · <a href="https://kmila.com.mx">Sitio web</a> · <a href="https://github.com/Kmila9s/Documentation/releases">Manual de usuario (PDF) y tesis</a>
-</p>
+<p align="center"><img src="https://img.shields.io/badge/banco%20GHDL-149%20casos-3c82f6?style=flat-square" alt="banco GHDL: 149 casos"> <img src="https://img.shields.io/badge/pr%C3%A1cticas-135%20autocalificadas-3c82f6?style=flat-square" alt="prácticas: 135 autocalificadas"> <img src="https://img.shields.io/badge/interfaz-7%20idiomas-3c82f6?style=flat-square" alt="interfaz: 7 idiomas"> <img src="https://img.shields.io/badge/licencia-MIT-3c82f6?style=flat-square" alt="licencia: MIT">
+  <a href="https://github.com/Kmila9s/Kmila/releases/latest"><img src="https://img.shields.io/github/v/release/Kmila9s/Kmila?style=flat-square&color=475569&label=release" alt="release"></a></p>
 
 **Kmila** es un laboratorio libre para aprender y depurar lenguajes de descripción de hardware sin FPGA: escribe VHDL, simúlalo y mira formas de onda, el esquemático sintetizado, la repetición paso a paso y un tablero interactivo, además de lecciones y prácticas autocalificadas. Su simulador se compara caso por caso contra GHDL.
+
+<h3 align="center">Empieza aquí</h3>
+<p align="center"><a href="https://kmila.com.mx/demo"><img src="https://img.shields.io/badge/Prueba%20la%20demo-3c82f6?style=for-the-badge" alt="Prueba la demo"></a>&nbsp;<a href="https://github.com/Kmila9s/Kmila/releases/latest"><img src="https://img.shields.io/badge/Descargar-475569?style=for-the-badge" alt="Descargar"></a>&nbsp;<a href="https://github.com/Kmila9s/Documentation/releases"><img src="https://img.shields.io/badge/Manual%20de%20usuario-475569?style=for-the-badge" alt="Manual de usuario"></a></p>
 
 <table><tr><td align="center"><img src="assets/shots/kmila.png" width="100%" alt=""><br><sub>Editor y formas de onda</sub></td><td align="center"><img src="assets/shots/librarycompiler.png" width="100%" alt=""><br><sub>Esquemático sintetizado</sub></td></tr><tr><td align="center"><img src="assets/shots/interpreter.png" width="100%" alt=""><br><sub>Lecciones de conceptos</sub></td><td align="center"><img src="assets/shots/practicevalidator.png" width="100%" alt=""><br><sub>Prácticas autocalificadas</sub></td></tr></table>
 
